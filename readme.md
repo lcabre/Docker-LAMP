@@ -10,8 +10,8 @@ Utilizar de la siguiente manera:
 
 1. Buildear imagen
 
-    docker build -f Dockerfile . -t nombre-imagen:latest
+    `docker build -f Dockerfile . -t nombre-imagen:latest`
 
 2. Iniciar Container
 
-    docker run --name nombre-container -p 3000:80 -d -v ${PWD}:/var/www/html nombre-imagen:latest
+    `docker run --name nombre-container -p 3000:80 -d -v ${PWD}:/var/www/html nombre-imagen:latest`
